@@ -4,27 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.13</version>
-        <relativePath/>
+        <groupId>com.offcn</groupId>
+        <artifactId>dongyimai-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <groupId>com.offcn</groupId>
-    <artifactId>dongyimai-parent</artifactId>
+    <artifactId>common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dongyimai-parent</name>
-    <description>dongyimai-parent</description>
-    <packaging>pom</packaging>
-    <modules>
-        <module>manager-web</module>
-        <module>common</module>
-        <module>customer</module>
-        <module>dao</module>
-        <module>pojo</module>
-        <module>sellergoods-interface</module>
-        <module>sellergoods-services</module>
-    </modules>
+    <name>common</name>
+    <description>common</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -72,7 +61,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.offcn.dongyimaiparent.DongyimaiParentApplication</mainClass>
+                    <mainClass>com.offcn.common.CommonApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>
