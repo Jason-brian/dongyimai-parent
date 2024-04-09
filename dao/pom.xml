@@ -40,6 +40,24 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- MySQL -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+            </dependency>
+
+            <!-- MyBatis Plus -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>com.offcn</groupId>
+                <artifactId>pojo</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

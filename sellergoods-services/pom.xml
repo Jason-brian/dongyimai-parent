@@ -41,6 +41,34 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- Nacos -->
+            <dependency>
+                <groupId>com.alibaba.nacos</groupId>
+                <artifactId>nacos-spring-boot-starter</artifactId>
+            </dependency>
+            <!-- dubbo -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>com.offcn</groupId>
+                <artifactId>common</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.offcn</groupId>
+                <artifactId>dao</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.offcn</groupId>
+                <artifactId>sellergoods-interface</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
