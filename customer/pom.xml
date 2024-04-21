@@ -32,59 +32,59 @@
         </dependency>
 
 
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
+            <version>${spring-boot.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
 
-            <!-- Redis -->
-<!--            <dependency>-->
-<!--                <groupId>io.lettuce</groupId>-->
-<!--                <artifactId>lettuce-core</artifactId>-->
-<!--            </dependency>-->
-<!--            &lt;!&ndash; MyBatis Plus &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>com.baomidou</groupId>-->
-<!--                <artifactId>mybatis-plus-boot-starter</artifactId>-->
-<!--            </dependency>-->
-<!--            &lt;!&ndash; Nacos &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>com.alibaba.nacos</groupId>-->
-<!--                <artifactId>nacos-spring-boot-starter</artifactId>-->
-<!--            </dependency> &lt;!&ndash; Spring Security &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-starter-security</artifactId>-->
-<!--            </dependency>-->
-            <!-- Elasticsearch -->
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-starter-data-elasticsearch</artifactId>-->
-<!--            </dependency>-->
-<!--            &lt;!&ndash; RabbitMQ &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-starter-amqp</artifactId>-->
-<!--            </dependency>-->
-            <!-- Dubbo -->
-            <dependency>
-                <groupId>org.apache.dubbo</groupId>
-                <artifactId>dubbo-spring-boot-starter</artifactId>
-            </dependency>
-            <!-- Fastion -->
-<!--            <dependency>-->
-<!--                <groupId>com.alibabba</groupId>-->
-<!--                <artifactId>fastjson</artifactId>-->
-<!--            </dependency>-->
-            <dependency>
-                <groupId>com.offcn</groupId>
-                <artifactId>sellergoods-interface</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-        </dependencies>
+        <!-- Redis -->
+        <!--            <dependency>-->
+        <!--                <groupId>io.lettuce</groupId>-->
+        <!--                <artifactId>lettuce-core</artifactId>-->
+        <!--            </dependency>-->
+        <!--            &lt;!&ndash; MyBatis Plus &ndash;&gt;-->
+        <!--            <dependency>-->
+        <!--                <groupId>com.baomidou</groupId>-->
+        <!--                <artifactId>mybatis-plus-boot-starter</artifactId>-->
+        <!--            </dependency>-->
+        <!--            &lt;!&ndash; Nacos &ndash;&gt;-->
+        <!--            <dependency>-->
+        <!--                <groupId>com.alibaba.nacos</groupId>-->
+        <!--                <artifactId>nacos-spring-boot-starter</artifactId>-->
+        <!--            </dependency> &lt;!&ndash; Spring Security &ndash;&gt;-->
+        <!--            <dependency>-->
+        <!--                <groupId>org.springframework.boot</groupId>-->
+        <!--                <artifactId>spring-boot-starter-security</artifactId>-->
+        <!--            </dependency>-->
+        <!-- Elasticsearch -->
+        <!--            <dependency>-->
+        <!--                <groupId>org.springframework.boot</groupId>-->
+        <!--                <artifactId>spring-boot-starter-data-elasticsearch</artifactId>-->
+        <!--            </dependency>-->
+        <!--            &lt;!&ndash; RabbitMQ &ndash;&gt;-->
+        <!--            <dependency>-->
+        <!--                <groupId>org.springframework.boot</groupId>-->
+        <!--                <artifactId>spring-boot-starter-amqp</artifactId>-->
+        <!--            </dependency>-->
+        <!-- Dubbo -->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+        </dependency>
+        <!-- Fastion -->
+        <!--            <dependency>-->
+        <!--                <groupId>com.alibabba</groupId>-->
+        <!--                <artifactId>fastjson</artifactId>-->
+        <!--            </dependency>-->
+        <dependency>
+            <groupId>com.offcn</groupId>
+            <artifactId>sellergoods-interface</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
     <build>

@@ -1,7 +1,12 @@
+# 链接mysql
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/dongyimai?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/youlexuandb?useSSL=false&serverTimezone=UTC
     username: root
     password: rurur5215921
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+
+# 链接mybatis-plus,并配置相关xml，以及命名规则
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
